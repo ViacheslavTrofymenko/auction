@@ -23,11 +23,11 @@ describe("Dutch Auction testing", function () {
     ).timestamp
   }
   
-  describe("createAuction", function() {
+  describe("create Auction", function() {
     it("test auction function", async function() {
       const duration = 60
       const tx = await auct.createAuction(
-        ethers.utils.parseEther("0.005"),
+        ethers.utils.parseEther("0.0001"),
         2,
         "fake item",
         duration
@@ -53,8 +53,8 @@ describe("Dutch Auction testing", function () {
         60
       )
       
-      this.timeout(10000) //10s
-      await delay(5000)
+      this.timeout(5000) //5s
+      await delay(1000)
 
       const buyTx = await auct.connect(buyer).buy(0, {value: ethers.utils.parseEther("0.005")})
       
