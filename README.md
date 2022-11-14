@@ -1,6 +1,6 @@
 # Majority Judgement Voting System
 This project represent majority judgement voting system with delegation proposed by Michel Balinski and Rida Laraki. It is a highest median rule, a cardinal voting system that elects the candidate with the highest median rating. 
-For more details please refer: [Majority judgment]"https://en.wikipedia.org/wiki/Majority_judgment" [and Tie-breaking the Highest Median]"https://www.parisschoolofeconomics.eu/docs/fabre-adrien/tie-breaking-highest-median--revision-2(1).pdf"
+For more details please refer: [Majority judgment](https://en.wikipedia.org/wiki/Majority_judgment) and [Tie-breaking the Highest Median](https://www.parisschoolofeconomics.eu/docs/fabre-adrien/tie-breaking-highest-median--revision-2(1).pdf)
 
 
 
